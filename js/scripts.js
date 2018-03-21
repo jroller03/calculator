@@ -45,5 +45,5 @@ $(document).ready(function() {
     var result = divide(number1,number2);
     $("#output4").text(result);
   });
-
+  var calculate = $("input:radio[name=calculate]:checked").val();
 });
